@@ -1,0 +1,271 @@
+@import url(//db.onlinewebfonts.com/c/1579a54beabef5f14ad6cdbe89b77544?family=Quite+Chocolatey);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Splash&display=swap");
+@import url(//db.onlinewebfonts.com/c/768f05ea89ab557f377ba36560fbbccc?family=PT+Serif);
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  src: local(""), url("../fonts/montserrat-v24-latin-900.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/montserrat-v24-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: "COUTURE";
+  src: url("//db.onlinewebfonts.com/t/148643204e3f8c31c9b52602ab19d19e.eot");
+  src: url("//db.onlinewebfonts.com/t/148643204e3f8c31c9b52602ab19d19e.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/148643204e3f8c31c9b52602ab19d19e.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/148643204e3f8c31c9b52602ab19d19e.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/148643204e3f8c31c9b52602ab19d19e.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/148643204e3f8c31c9b52602ab19d19e.svg#COUTURE")
+      format("svg");
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Splash&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+h2 {
+  font-weight: lighter;
+}
+h1 {
+  font-weight: bolder;
+}
+h3 {
+  font-weight: 500;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.top_logo {
+  background-image: url(../img/BG.png);
+  padding: 0 42px;
+}
+.glav {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 50px;
+  justify-content: space-between;
+}
+
+.zaglav {
+  display: flex;
+  font-family: "Quite Chocolatey";
+  color: rgb(255, 255, 255);
+  line-height: 32px;
+  font-size: 60px;
+  padding-right: 20px;
+}
+
+.display {
+  display: flex;
+  font-size: 18px;
+  font-family: "Montserrat";
+  line-height: 22px;
+  cursor: pointer;
+  text-transform: uppercase;
+  list-style: none;
+  transition: 0.3s;
+}
+li {
+  padding: 14px 14px;
+}
+.display > li:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(19, 14, 39);
+  border-radius: 5px;
+}
+.name {
+  padding: 0 53px;
+}
+.name_zag {
+  font-size: 60px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(19, 14, 39);
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.name_zag2 {
+  font-size: 60px;
+  font-family: "Montserrat" bold;
+  color: rgb(255, 255, 255);
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.lorem {
+  font-size: 18px;
+  font-family: "PTSerif";
+  color: rgb(255, 255, 255);
+  line-height: 22px;
+  padding-bottom: 130px;
+  margin: 0 600px 0 0;
+}
+
+.center_text {
+  font-size: 35px;
+  display: flex;
+  text-transform: uppercase;
+  font-family: "Couture";
+  font-weight: bold;
+  margin-left: 100px;
+}
+.center_zag {
+  padding: 0 10px;
+  color: #c62314;
+}
+.center_zag2 {
+  color: #130e27;
+}
+.ikons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 50px;
+  padding-bottom: 70px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.ikons_lamp {
+  padding-bottom: 10px;
+}
+.ikons_text {
+  margin-top: 50px;
+  padding: 0 60px;
+}
+.low_site {
+  background-image: url(../img/bg-low.png);
+  max-height: 120px;
+}
+.bg_low {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.low_p {
+  padding: 10px;
+  font-size: 20px;
+  font-family: "PTSerif";
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  text-align: left;
+  width: 50%;
+}
+.low_h3 {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 8px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0 60px;
+  cursor: pointer;
+  background-color: #c62314;
+}
+.low_h3:hover {
+  color: #fff;
+}
+.button_site {
+  background-color: #efefef;
+  height: 616px;
+}
+.button_zag {
+  padding: 10px;
+  font-size: 35px;
+  font-family: "Montserrat";
+  color: rgb(19, 14, 39);
+  font-weight: normal;
+  line-height: 80px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.cards_price {
+  text-align: center;
+  margin: 0 20px 66px;
+  background-color: #fff;
+  height: 390px;
+  width: 320px;
+}
+.name_cards {
+  font-size: 22px;
+  font-family: "PTSerif";
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  margin: 20px;
+}
+.price_cards {
+  font-size: 60px;
+  font-family: "Montserrat";
+  color: rgb(198, 35, 20);
+  font-weight: bold;
+  line-height: 80px;
+}
+.text_cards {
+  font-size: 20px;
+  font-family: "PTSerif";
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  margin: 20px;
+}
+.button_cards {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  background-color: #130e27;
+  padding: 10px;
+  margin: 0 55px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button_cards:hover {
+  color: #fff;
+  background-color: #c62314;
+}
+.done_site {
+  background-color: #130e27;
+  height: 188px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contacts_done {
+  display: flex;
+  font-size: 20px;
+  font-family: "PTSerif";
+  color: rgb(255, 255, 255);
+  line-height: 22px;
+}
+.logo_done {
+  display: flex;
+  font-family: "Quite Chocolatey";
+  color: #c62314;
+  line-height: 32px;
+  font-size: 60px;
+  padding-right: 20px;
+}
+b {
+  color: #c62314;
+}
+.gov {
+  padding: 5px;
+}
+.gov:hover {
+  color: #c62314;
+}
